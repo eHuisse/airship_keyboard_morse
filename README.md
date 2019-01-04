@@ -10,13 +10,13 @@ We choose to use morse simulator your can find the install instruction on :
 ### Installing
 
 Create a file named morse_ws in your root directory :
-'''
+```sh
 mkdir morse_ws
-'''
+```
 When it done copy the morse_train directory containing 3D environnement in :
-'''
+```sh
 /usr/share/morse/data/environments/
-'''
+```
 Then you need to copy all this package in your brend new morse_ws.
 
 Then import the project
@@ -24,7 +24,7 @@ Then import the project
 
 ## Running the tests
 If you type :
-'''
+```sh
 morse run airship_keyboard
-'''
+```
 It should display the simulation.
